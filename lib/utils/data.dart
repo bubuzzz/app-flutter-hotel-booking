@@ -1,5 +1,5 @@
 var profile = {
-  "name": "Sangvaleap",
+  "name": "Thai tran",
   "image": "https://avatars.githubusercontent.com/u/86506519?v=4",
   "email": "sangvaleap.vanny@gmail.com"
 };
@@ -16,15 +16,35 @@ List categories = [
   {"name": "Apartment", "icon": "assets/icons/home.svg"},
 ];
 
-List cities = [
-  {"name": "Phnom Penh", "icon": "assets/icons/home.svg"},
-  {"name": "Siem Reap", "icon": "assets/icons/home.svg"},
-  {"name": "Sihanoukville", "icon": "assets/icons/home.svg"},
-  {"name": "Battambang", "icon": "assets/icons/home.svg"},
-  {"name": "Mondulkiri", "icon": "assets/icons/home.svg"},
-  {"name": "Kampot", "icon": "assets/icons/home.svg"},
-  {"name": "Pursat", "icon": "assets/icons/home.svg"},
-  {"name": "Steung Treng", "icon": "assets/icons/home.svg"},
+List procedures = [
+  {"name": "Biostimulator", "icon": "assets/icons/home.svg"},
+  {"name": "Botox, Dysport, Xeomin", "icon": "assets/icons/home.svg"},
+  {"name": "Broad Band Light Therapy", "icon": "assets/icons/home.svg"},
+  {"name": "CoolSculpting ELITE™", "icon": "assets/icons/home.svg"},
+  {"name": "Dermal Fillers", "icon": "assets/icons/home.svg"},
+  {"name": "EMFace", "icon": "assets/icons/home.svg"},
+  {"name": "EMsculpt Neo", "icon": "assets/icons/home.svg"},
+  {"name": "Halo Laser", "icon": "assets/icons/home.svg"},
+  {"name": "Microchanneling", "icon": "assets/icons/home.svg"},
+];
+
+List treatableConditions = [
+  {"name": "Aging Skin", "icon": "assets/icons/home.svg"},
+  {"name": "Excess Body Fat", "icon": "assets/icons/home.svg"},
+  {"name": "Double Chin", "icon": "assets/icons/home.svg"},
+  {"name": "Hyperpigmentation", "icon": "assets/icons/home.svg"},
+  {"name": "Jawline Contour", "icon": "assets/icons/home.svg"},
+  {"name": "Large Pores", "icon": "assets/icons/home.svg"},
+  {"name": "Loss of Volume", "icon": "assets/icons/home.svg"},
+  {"name": "Muffin Tops", "icon": "assets/icons/home.svg"},
+  {"name": "Poor Skin Textures", "icon": "assets/icons/home.svg"},
+  {"name": "Rosacea", "icon": "assets/icons/home.svg"},
+  {"name": "Sagging Skin", "icon": "assets/icons/home.svg"},
+  {"name": "Smile Lines (Nasilabial Folds)", "icon": "assets/icons/home.svg"},
+  {"name": "Sun Damaged Spots", "icon": "assets/icons/home.svg"},
+  {"name": "Wrinkles", "icon": "assets/icons/home.svg"},
+  {"name": "Undeveloped Muscles", "icon": "assets/icons/home.svg"},
+  {"name": "Under Eyes (Dark Circles)", "icon": "assets/icons/home.svg"},
 ];
 
 List<String> albumImages = [
@@ -37,13 +57,13 @@ List<String> albumImages = [
 List features = [
   {
     "id": 100,
-    "name": "Superior Room",
+    "name": "PRF - Platelet-rich Fibrin",
     "image":
         "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$210",
     "type": categories[1]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
+    "location": "USA",
     "is_favorited": false,
     "album_images": albumImages,
     "description":
@@ -51,7 +71,7 @@ List features = [
   },
   {
     "id": 101,
-    "name": "Junior Suite",
+    "name": "CoolSculpting ELITE™",
     "image":
         "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$150",

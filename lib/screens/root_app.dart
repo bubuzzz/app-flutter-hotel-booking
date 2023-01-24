@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hotel_booking/screens/explore.dart';
 import 'package:hotel_booking/screens/setting.dart';
 import 'package:hotel_booking/theme/color.dart';
 import 'package:hotel_booking/utils/constant.dart';
@@ -22,10 +23,7 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
     },
     {
       "icon": "assets/icons/search.svg",
-      "page": Container(
-        alignment: Alignment.center,
-        child: Text("Explore"),
-      ),
+      "page": ExplorePage(),
     },
     {
       "icon": "assets/icons/pin-area.svg",

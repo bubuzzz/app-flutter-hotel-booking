@@ -7,14 +7,14 @@ import 'package:hotel_booking/widgets/feature_item.dart';
 import 'package:hotel_booking/widgets/notification_box.dart';
 import 'package:hotel_booking/widgets/recommend_item.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class ExplorePage extends StatefulWidget {
+  const ExplorePage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<ExplorePage> createState() => _ExplorePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ExplorePageState extends State<ExplorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                     width: 3,
                   ),
                   Text(
-                    "Nob Hill Medical Aesthetics",
+                    "Phnom Penh",
                     style: TextStyle(
                       color: darker,
                       fontSize: 13,
@@ -94,30 +94,15 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
               child: Text(
-                "Procedures",
+                "Nob Hill Medical Aesthetics",
                 style: TextStyle(
                   color: textColor,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w600,
                   fontSize: 22,
                 ),
               ),
             ),
-            getCategories(procedures),
-            SizedBox(
-              height: 10,
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
-              child: Text(
-                "Treatable Condition",
-                style: TextStyle(
-                  color: textColor,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 22,
-                ),
-              ),
-            ),
-            getCategories(treatableConditions),
+            getCities(),
             SizedBox(
               height: 10,
             ),
@@ -205,17 +190,17 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  getCategories(categories) {
+  getCities() {
     return SingleChildScrollView(
       padding: EdgeInsets.fromLTRB(15, 5, 0, 10),
       scrollDirection: Axis.horizontal,
       child: Row(
         children: List.generate(
-          categories.length,
+          procedures.length,
           (index) => Padding(
             padding: const EdgeInsets.only(right: 8),
             child: CategoryItem(
-              data: categories[index],
+              data: procedures[index],
               onTap: () {},
             ),
           ),
