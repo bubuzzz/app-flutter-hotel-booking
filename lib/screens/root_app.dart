@@ -26,13 +26,6 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
       "page": ExplorePage(),
     },
     {
-      "icon": "assets/icons/pin-area.svg",
-      "page": Container(
-        alignment: Alignment.center,
-        child: Text("Nearby"),
-      ),
-    },
-    {
       "icon": "assets/icons/setting.svg",
       "page": SettingPage(),
     },

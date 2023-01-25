@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hotel_booking/theme/color.dart';
 
-class FavoriteBox extends StatelessWidget {
-  FavoriteBox(
+class FavouriteBox extends StatelessWidget {
+  FavouriteBox(
       {Key? key,
       this.bgColor = Colors.white,
       this.onTap,
-      this.isFavorited = false,
+      this.isFavourited = false,
       this.borderColor = Colors.transparent,
       this.radius = 50,
       this.size = 18,
@@ -15,7 +15,7 @@ class FavoriteBox extends StatelessWidget {
       : super(key: key);
   final Color borderColor;
   final Color? bgColor;
-  final bool isFavorited;
+  final bool isFavourited;
   final double radius;
   final double size;
   final double padding;
@@ -31,7 +31,7 @@ class FavoriteBox extends StatelessWidget {
         curve: Curves.fastOutSlowIn,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(radius),
-          color: isFavorited ? red : Colors.white,
+          color: isFavourited ? red : Colors.white,
           boxShadow: [
             BoxShadow(
               color: shadowColor.withOpacity(0.1),
@@ -42,10 +42,10 @@ class FavoriteBox extends StatelessWidget {
           ],
         ),
         child: SvgPicture.asset(
-          isFavorited
+          isFavourited
               ? "assets/icons/favorited.svg"
               : "assets/icons/favorite.svg",
-          color: isFavorited ? Colors.white : primary,
+          color: isFavourited ? Colors.white : primary,
           width: size,
           height: size,
         ),

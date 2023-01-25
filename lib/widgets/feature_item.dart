@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hotel_booking/theme/color.dart';
-import 'package:hotel_booking/widgets/favorite_box.dart';
+import 'package:hotel_booking/widgets/favourite_box.dart';
 import 'custom_image.dart';
 
 class FeatureItem extends StatelessWidget {
@@ -92,10 +92,10 @@ class FeatureItem extends StatelessWidget {
                           ),
                         ],
                       ),
-                      FavoriteBox(
+                      FavouriteBox(
                         size: 16,
                         onTap: onTapFavorite,
-                        isFavorited: data["is_favorited"],
+                        isFavourited: data["is_favourited"],
                       )
                     ],
                   ),

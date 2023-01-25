@@ -176,8 +176,8 @@ class _HomePageState extends State<HomePage> {
           data: features[index],
           onTapFavorite: () {
             setState(() {
-              features[index]["is_favorited"] =
-                  !features[index]["is_favorited"];
+              features[index]["is_favourited"] =
+                  !features[index]["is_favourited"];
             });
           },
           onTap: () {},

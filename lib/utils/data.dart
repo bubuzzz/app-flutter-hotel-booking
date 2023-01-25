@@ -1,7 +1,7 @@
 var profile = {
   "name": "Thai tran",
   "image": "https://avatars.githubusercontent.com/u/86506519?v=4",
-  "email": "sangvaleap.vanny@gmail.com"
+  "email": "thaitcao@gmail.com"
 };
 
 List categories = [
@@ -61,10 +61,10 @@ List features = [
     "image":
         "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$210",
-    "type": categories[1]["name"],
+    "type": treatableConditions[15]["name"],
     "rate": "4.5",
     "location": "USA",
-    "is_favorited": false,
+    "is_favourited": false,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
@@ -75,66 +75,38 @@ List features = [
     "image":
         "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$150",
-    "type": categories[3]["name"],
+    "type": treatableConditions[1]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": true,
+    "location": "USA",
+    "is_favourited": true,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
   },
   {
     "id": 102,
-    "name": "Classic Queen Room",
+    "name": "Botox",
     "image":
         "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$320",
-    "type": categories[2]["name"],
+    "type": treatableConditions[4]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
+    "location": "USA",
+    "is_favourited": false,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
   },
   {
     "id": 103,
-    "name": "Luxury King",
+    "name": "Halo",
     "image":
         "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
     "price": "\$350",
-    "type": categories[2]["name"],
+    "type": treatableConditions[8]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
-    "album_images": albumImages,
-    "description":
-        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
-  },
-  {
-    "id": 104,
-    "name": "Classic Room",
-    "image":
-        "https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "price": "\$180",
-    "type": categories[4]["name"],
-    "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
-    "album_images": albumImages,
-    "description":
-        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
-  },
-  {
-    "id": 105,
-    "name": "Twin Room",
-    "image":
-        "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "price": "\$250",
-    "type": categories[1]["name"],
-    "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
+    "location": "USA",
+    "is_favourited": false,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
@@ -150,8 +122,8 @@ List recommends = [
     "price": "\$310",
     "type": categories[1]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
+    "location": "USA",
+    "is_favourited": false,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
@@ -164,8 +136,8 @@ List recommends = [
     "price": "\$250",
     "type": categories[2]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
-    "is_favorited": false,
+    "location": "USA",
+    "is_favourited": false,
     "album_images": albumImages,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
@@ -178,9 +150,9 @@ List recommends = [
     "price": "\$190",
     "type": categories[1]["name"],
     "rate": "4.5",
-    "location": "Phnom Penh",
+    "location": "USA",
     "album_images": albumImages,
-    "is_favorited": false,
+    "is_favourited": false,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
   },

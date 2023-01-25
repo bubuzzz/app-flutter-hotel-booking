@@ -100,7 +100,7 @@ class _SettingPageState extends State<SettingPage> {
                   height: 5,
                 ),
                 Text(
-                  "+12 345 6789",
+                  "",
                   style: TextStyle(
                     color: labelColor,
                     fontSize: 14,
