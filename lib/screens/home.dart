@@ -94,21 +94,6 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
               child: Text(
-                "Procedures",
-                style: TextStyle(
-                  color: textColor,
-                  fontWeight: FontWeight.w500,
-                  fontSize: 22,
-                ),
-              ),
-            ),
-            getCategories(procedures),
-            SizedBox(
-              height: 10,
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
-              child: Text(
                 "Treatable Condition",
                 style: TextStyle(
                   color: textColor,
@@ -155,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            getRecommend(),
+            Container(child: getRecommend()),
           ],
         ),
       ),
@@ -187,18 +172,16 @@ class _HomePageState extends State<HomePage> {
   }
 
   getRecommend() {
-    return SingleChildScrollView(
-      padding: EdgeInsets.fromLTRB(15, 5, 0, 5),
-      scrollDirection: Axis.horizontal,
-      child: Row(
-        children: List.generate(
-          recommends.length,
-          (index) => Padding(
-            padding: const EdgeInsets.only(right: 10),
-            child: RecommendItem(
-              data: recommends[index],
-              onTap: () {},
-            ),
+    return ListView(
+      shrinkWrap: true,
+      padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+      children: List.generate(
+        recommends.length,
+        (index) => Padding(
+          padding: const EdgeInsets.only(bottom: 10),
+          child: RecommendItem(
+            data: recommends[index],
+            onTap: () {},
           ),
         ),
       ),

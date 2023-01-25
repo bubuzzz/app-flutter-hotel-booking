@@ -89,7 +89,7 @@ class _SettingPageState extends State<SettingPage> {
                   height: 12,
                 ),
                 Text(
-                  "Sangvaleap",
+                  "Thai Tran",
                   style: TextStyle(
                     color: textColor,
                     fontSize: 20,

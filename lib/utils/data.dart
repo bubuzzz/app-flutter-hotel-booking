@@ -1,6 +1,6 @@
 var profile = {
   "name": "Thai tran",
-  "image": "https://avatars.githubusercontent.com/u/86506519?v=4",
+  "image": "https://avatars.githubusercontent.com/u/571736?v=4",
   "email": "thaitcao@gmail.com"
 };
 
@@ -17,7 +17,6 @@ List categories = [
 ];
 
 List procedures = [
-  {"name": "Biostimulator", "icon": "assets/icons/home.svg"},
   {"name": "Botox, Dysport, Xeomin", "icon": "assets/icons/home.svg"},
   {"name": "Broad Band Light Therapy", "icon": "assets/icons/home.svg"},
   {"name": "CoolSculpting ELITE™", "icon": "assets/icons/home.svg"},
@@ -29,6 +28,7 @@ List procedures = [
 ];
 
 List treatableConditions = [
+  {"name": "Biostimulator", "icon": "assets/icons/home.svg"},
   {"name": "Aging Skin", "icon": "assets/icons/home.svg"},
   {"name": "Excess Body Fat", "icon": "assets/icons/home.svg"},
   {"name": "Double Chin", "icon": "assets/icons/home.svg"},
@@ -59,7 +59,7 @@ List features = [
     "id": 100,
     "name": "PRF - Platelet-rich Fibrin",
     "image":
-        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/iStock-1254806678.jpg?v=1668570189&width=750",
     "price": "\$210",
     "type": treatableConditions[15]["name"],
     "rate": "4.5",
@@ -73,7 +73,7 @@ List features = [
     "id": 101,
     "name": "CoolSculpting ELITE™",
     "image":
-        "https://images.unsplash.com/photo-1505692952047-1a78307da8f2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/young-woman-doing-yoga-outside.jpg?v=1667361495&width=750",
     "price": "\$150",
     "type": treatableConditions[1]["name"],
     "rate": "4.5",
@@ -87,7 +87,7 @@ List features = [
     "id": 102,
     "name": "Botox",
     "image":
-        "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/Botox_Pic_1.jpg?v=1668540622&width=750",
     "price": "\$320",
     "type": treatableConditions[4]["name"],
     "rate": "4.5",
@@ -101,7 +101,7 @@ List features = [
     "id": 103,
     "name": "Halo",
     "image":
-        "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/iStock-1391974179.jpg?v=1668570326&width=750",
     "price": "\$350",
     "type": treatableConditions[8]["name"],
     "rate": "4.5",
