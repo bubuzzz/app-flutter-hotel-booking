@@ -174,7 +174,7 @@ class _HomePageState extends State<HomePage> {
   getRecommend() {
     return ListView(
       shrinkWrap: true,
-      padding: EdgeInsets.fromLTRB(5, 0, 5, 0),
+      padding: EdgeInsets.fromLTRB(10, 0, 5, 0),
       children: List.generate(
         recommends.length,
         (index) => Padding(

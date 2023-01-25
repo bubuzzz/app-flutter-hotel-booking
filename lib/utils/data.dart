@@ -116,11 +116,11 @@ List features = [
 List recommends = [
   {
     "id": 110,
-    "name": "Luxury King",
+    "name": "EMFace",
     "image":
-        "https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/pexels-moose-photos-1586999.jpg?v=1669447641&width=750",
     "price": "\$310",
-    "type": categories[1]["name"],
+    "type": treatableConditions[1]["name"],
     "rate": "4.5",
     "location": "USA",
     "is_favourited": false,
@@ -130,11 +130,11 @@ List recommends = [
   },
   {
     "id": 111,
-    "name": "Classic Room",
+    "name": "Micro channeling",
     "image":
-        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/pexels-julia-kuzenkov-2748091.jpg?v=1668697924&width=750",
     "price": "\$250",
-    "type": categories[2]["name"],
+    "type": treatableConditions[2]["name"],
     "rate": "4.5",
     "location": "USA",
     "is_favourited": false,
@@ -144,11 +144,11 @@ List recommends = [
   },
   {
     "id": 112,
-    "name": "Twin Room",
+    "name": "Broadband Light Therapy",
     "image":
-        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhc2hpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/zulmaury-saavedra-kXC0dbqtRe4-unsplash.jpg?v=1667893950&width=750",
     "price": "\$190",
-    "type": categories[1]["name"],
+    "type": treatableConditions[1]["name"],
     "rate": "4.5",
     "location": "USA",
     "album_images": albumImages,
