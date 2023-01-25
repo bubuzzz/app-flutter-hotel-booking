@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hotel_booking/theme/color.dart';
 import 'custom_image.dart';
 
-class RecommendItem extends StatelessWidget {
-  RecommendItem({Key? key, required this.data, this.onTap}) : super(key: key);
+class CustomListItem extends StatelessWidget {
+  CustomListItem({Key? key, required this.data, this.onTap}) : super(key: key);
   final data;
   final GestureTapCallback? onTap;
 

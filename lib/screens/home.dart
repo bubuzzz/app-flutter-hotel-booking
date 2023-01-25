@@ -5,7 +5,7 @@ import 'package:hotel_booking/utils/data.dart';
 import 'package:hotel_booking/widgets/category_item.dart';
 import 'package:hotel_booking/widgets/feature_item.dart';
 import 'package:hotel_booking/widgets/notification_box.dart';
-import 'package:hotel_booking/widgets/recommend_item.dart';
+import 'package:hotel_booking/widgets/custom_list_item.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            Container(child: getRecommend()),
+            Container(child: getRecommend(recommends)),
           ],
         ),
       ),
@@ -171,7 +171,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  getRecommend() {
+  getRecommend(items) {
     return ListView(
       shrinkWrap: true,
       padding: EdgeInsets.fromLTRB(10, 0, 5, 0),
@@ -179,8 +179,8 @@ class _HomePageState extends State<HomePage> {
         recommends.length,
         (index) => Padding(
           padding: const EdgeInsets.only(bottom: 10),
-          child: RecommendItem(
-            data: recommends[index],
+          child: CustomListItem(
+            data: items[index],
             onTap: () {},
           ),
         ),
