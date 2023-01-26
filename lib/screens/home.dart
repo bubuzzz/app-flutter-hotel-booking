@@ -1,5 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:hotel_booking/screens/explore.dart';
+import 'package:hotel_booking/screens/service_detail.dart';
 import 'package:hotel_booking/theme/color.dart';
 import 'package:hotel_booking/utils/data.dart';
 import 'package:hotel_booking/widgets/category_item.dart';
@@ -165,7 +167,12 @@ class _HomePageState extends State<HomePage> {
                   !features[index]["is_favourited"];
             });
           },
-          onTap: () {},
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ServiceDetailPage()),
+            );
+          },
         ),
       ),
     );
@@ -181,7 +188,12 @@ class _HomePageState extends State<HomePage> {
           padding: const EdgeInsets.only(bottom: 10),
           child: CustomListItem(
             data: items[index],
-            onTap: () {},
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const ServiceDetailPage()),
+              );
+            },
           ),
         ),
       ),
@@ -199,7 +211,12 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.only(right: 8),
             child: CategoryItem(
               data: categories[index],
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ExplorePage()),
+                );
+              },
             ),
           ),
         ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hotel_booking/screens/explore.dart';
 import 'package:hotel_booking/screens/setting.dart';
+import 'package:hotel_booking/screens/shop.dart';
 import 'package:hotel_booking/theme/color.dart';
 import 'package:hotel_booking/utils/constant.dart';
 import 'package:hotel_booking/widgets/bottombar_item.dart';
@@ -27,7 +28,7 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
     },
     {
       "icon": "assets/icons/marketplace.svg",
-      "page": SettingPage(),
+      "page": ShopPage(),
     },
     {
       "icon": "assets/icons/setting.svg",

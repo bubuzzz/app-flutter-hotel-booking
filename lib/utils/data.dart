@@ -171,3 +171,55 @@ List recommends = [
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
   },
 ];
+
+var product = {
+  "id": 113,
+  "name": "Broadband Light Therapy",
+  "image":
+      "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/zulmaury-saavedra-kXC0dbqtRe4-unsplash.jpg?v=1667893950&width=750",
+  "price": "\$190",
+  "type": treatableConditions[1]["name"],
+  "rate": "4.5",
+  "location": "USA",
+  "album_images": albumImages,
+  "is_favourited": false,
+  "fee": '\$250',
+  "description":
+      "Broadband Light (“BBL”) is a corrective phototherapy treatment created by Sciton, that utilizes Light therapy to target visible signs of aging as well as those deep in the epidermis",
+  "treatment_summary": [
+    {
+      "title": "What It Treats",
+      "content":
+          "Discloration, Sun damaged spots, Uneven skin tone, Rosacea, Broken capillaries"
+    },
+    {
+      "title": "Treable Areas",
+      "content": "Face, Chest, Neck, Hands, Arms, Full body"
+    },
+    {
+      "title": "Procedure Time",
+      "content":
+          "Varies for each body part, 30 minutes for each face treatment session, Additional 15 minutes for each additional part treated",
+    },
+    {
+      "title": "Treatment Series",
+      "content":
+          "Initial correction of 3-5 sessions,  followed by 1 session once every 3-6 months (as a booster)",
+    },
+    {
+      "title": "Recovery Time & Side Effects",
+      "content":
+          "Recovery Time: no down time, Common Side Effects: minor redness after treatment, temporarily darker sun damaged spots (will last for a few hour to a few days), Rare Side Effects: post inflammatory hyperpigmentation"
+    },
+    {
+      "title": "Cost",
+      "content":
+          "\$650 per treatment session, \$1950 - \$3250 for initial correction, \$650 for the follow up "
+    },
+    {
+      "title": "Results",
+      "content":
+          "Our clients reported a greater balanced skin tone, Rejuvenated milky, softer skin"
+    }
+  ]
+};
