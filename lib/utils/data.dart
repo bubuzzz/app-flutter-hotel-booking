@@ -156,4 +156,18 @@ List recommends = [
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
   },
+  {
+    "id": 113,
+    "name": "Broadband Light Therapy",
+    "image":
+        "https://cdn.shopify.com/s/files/1/0665/9391/5125/files/zulmaury-saavedra-kXC0dbqtRe4-unsplash.jpg?v=1667893950&width=750",
+    "price": "\$190",
+    "type": treatableConditions[1]["name"],
+    "rate": "4.5",
+    "location": "USA",
+    "album_images": albumImages,
+    "is_favourited": false,
+    "description":
+        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
+  },
 ];

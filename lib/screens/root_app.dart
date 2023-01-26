@@ -26,6 +26,10 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
       "page": ExplorePage(),
     },
     {
+      "icon": "assets/icons/marketplace.svg",
+      "page": SettingPage(),
+    },
+    {
       "icon": "assets/icons/setting.svg",
       "page": SettingPage(),
     },
