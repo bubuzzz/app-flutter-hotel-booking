@@ -50,6 +50,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+  calendar_timeline:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "53910f9a3ebe32265aecfae006d4df4eb3289720"
+      url: "https://github.com/bubuzzz/calendar_timeline.git"
+    source: git
+    version: "1.1.0"
   carousel_slider:
     dependency: "direct main"
     description:
@@ -172,6 +181,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.18.0"
   matcher:
     dependency: transitive
     description:
@@ -241,7 +257,7 @@ packages:
       name: path_provider_foundation
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
   path_provider_linux:
     dependency: transitive
     description:
@@ -305,6 +321,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.27.7"
+  scrollable_positioned_list:
+    dependency: transitive
+    description:
+      name: scrollable_positioned_list
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.5"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -323,14 +346,14 @@ packages:
       name: sqflite
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.2.3"
+    version: "2.2.4+1"
   sqflite_common:
     dependency: transitive
     description:
       name: sqflite_common
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.1"
+    version: "2.4.2+2"
   stack_trace:
     dependency: transitive
     description:

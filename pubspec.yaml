@@ -1,7 +1,7 @@
 name: hotel_booking
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -20,6 +20,11 @@ dependencies:
   image_stack: ^2.1.1
   anim_search_bar: ^2.0.3
   google_fonts: ^3.0.1
+  calendar_timeline:
+    git:
+      url: https://github.com/bubuzzz/calendar_timeline.git
+      ref: master
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
