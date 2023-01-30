@@ -4,6 +4,7 @@ import 'package:hotel_booking/utils/data.dart';
 import 'package:hotel_booking/widgets/booking.dart';
 import 'package:hotel_booking/widgets/notification_box.dart';
 import 'package:hotel_booking/widgets/service_detail_content.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class ServiceDetailPage extends StatefulWidget {
   const ServiceDetailPage({Key? key}) : super(key: key);
@@ -90,7 +91,17 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
   Widget buildBookingFlow(int serviceId) {
     return Booking(
         serviceId: serviceId,
-        confirmBooking: (serviceId) => Navigator.of(context).pop());
+        confirmBooking: (serviceId)  {
+          Navigator.of(context).pop() ;
+          Fluttertoast.showToast(
+              msg: 'Your booking is being processed. Please wait for the confirmation',
+              toastLength: Toast.LENGTH_LONG,
+              gravity: ToastGravity.BOTTOM,
+              timeInSecForIosWeb: 1,
+              backgroundColor: secondary,
+              textColor: Colors.white
+          );
+        });
   }
 
   void onPressBooking(int id) {

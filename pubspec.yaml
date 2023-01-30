@@ -20,6 +20,7 @@ dependencies:
   image_stack: ^2.1.1
   anim_search_bar: ^2.0.3
   google_fonts: ^3.0.1
+  fluttertoast: ^8.0.8
   calendar_timeline:
     git:
       url: https://github.com/bubuzzz/calendar_timeline.git
